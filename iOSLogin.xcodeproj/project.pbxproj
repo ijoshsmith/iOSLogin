@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41904E2D13809A54006BAEE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41904E2C13809A54006BAEE3 /* UIKit.framework */; };
+		41904E2F13809A54006BAEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41904E2E13809A54006BAEE3 /* Foundation.framework */; };
+		41904E3113809A54006BAEE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41904E3013809A54006BAEE3 /* CoreGraphics.framework */; };
+		41904E3713809A54006BAEE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41904E3513809A54006BAEE3 /* InfoPlist.strings */; };
+		41904E3A13809A54006BAEE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E3913809A54006BAEE3 /* main.m */; };
+		41904E3D13809A54006BAEE3 /* iOSLoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E3C13809A54006BAEE3 /* iOSLoginAppDelegate.m */; };
+		41904E4013809A54006BAEE3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41904E3E13809A54006BAEE3 /* MainWindow.xib */; };
+		41904E5113809B08006BAEE3 /* DemoLoginOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E4713809B08006BAEE3 /* DemoLoginOperation.m */; };
+		41904E5213809B08006BAEE3 /* DemoLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41904E4813809B08006BAEE3 /* DemoLoginView.xib */; };
+		41904E5313809B08006BAEE3 /* LoginOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E4A13809B08006BAEE3 /* LoginOperation.m */; };
+		41904E5413809B08006BAEE3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E4C13809B08006BAEE3 /* LoginViewController.m */; };
+		41904E5513809B08006BAEE3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41904E4D13809B08006BAEE3 /* LoginViewController.xib */; };
+		41904E5613809B08006BAEE3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41904E4F13809B08006BAEE3 /* MainViewController.m */; };
+		41904E5713809B08006BAEE3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41904E5013809B08006BAEE3 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41904E2813809A54006BAEE3 /* iOSLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41904E2C13809A54006BAEE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41904E2E13809A54006BAEE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41904E3013809A54006BAEE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41904E3413809A54006BAEE3 /* iOSLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLogin-Info.plist"; sourceTree = "<group>"; };
+		41904E3613809A54006BAEE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41904E3813809A54006BAEE3 /* iOSLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSLogin-Prefix.pch"; sourceTree = "<group>"; };
+		41904E3913809A54006BAEE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41904E3B13809A54006BAEE3 /* iOSLoginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSLoginAppDelegate.h; sourceTree = "<group>"; };
+		41904E3C13809A54006BAEE3 /* iOSLoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLoginAppDelegate.m; sourceTree = "<group>"; };
+		41904E3F13809A54006BAEE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		41904E4613809B08006BAEE3 /* DemoLoginOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLoginOperation.h; sourceTree = "<group>"; };
+		41904E4713809B08006BAEE3 /* DemoLoginOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoLoginOperation.m; sourceTree = "<group>"; };
+		41904E4813809B08006BAEE3 /* DemoLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoLoginView.xib; sourceTree = "<group>"; };
+		41904E4913809B08006BAEE3 /* LoginOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginOperation.h; sourceTree = "<group>"; };
+		41904E4A13809B08006BAEE3 /* LoginOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginOperation.m; sourceTree = "<group>"; };
+		41904E4B13809B08006BAEE3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		41904E4C13809B08006BAEE3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		41904E4D13809B08006BAEE3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		41904E4E13809B08006BAEE3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		41904E4F13809B08006BAEE3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		41904E5013809B08006BAEE3 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41904E2513809A54006BAEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41904E2D13809A54006BAEE3 /* UIKit.framework in Frameworks */,
+				41904E2F13809A54006BAEE3 /* Foundation.framework in Frameworks */,
+				41904E3113809A54006BAEE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41904E1D13809A54006BAEE3 = {
+			isa = PBXGroup;
+			children = (
+				41904E3213809A54006BAEE3 /* iOSLogin */,
+				41904E2B13809A54006BAEE3 /* Frameworks */,
+				41904E2913809A54006BAEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41904E2913809A54006BAEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41904E2813809A54006BAEE3 /* iOSLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41904E2B13809A54006BAEE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41904E2C13809A54006BAEE3 /* UIKit.framework */,
+				41904E2E13809A54006BAEE3 /* Foundation.framework */,
+				41904E3013809A54006BAEE3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41904E3213809A54006BAEE3 /* iOSLogin */ = {
+			isa = PBXGroup;
+			children = (
+				41904E5813809B13006BAEE3 /* Demo */,
+				41904E5913809B2C006BAEE3 /* Login */,
+				41904E3313809A54006BAEE3 /* Supporting Files */,
+				41904E3B13809A54006BAEE3 /* iOSLoginAppDelegate.h */,
+				41904E3C13809A54006BAEE3 /* iOSLoginAppDelegate.m */,
+				41904E4E13809B08006BAEE3 /* MainViewController.h */,
+				41904E4F13809B08006BAEE3 /* MainViewController.m */,
+				41904E5013809B08006BAEE3 /* MainViewController.xib */,
+				41904E3E13809A54006BAEE3 /* MainWindow.xib */,
+			);
+			path = iOSLogin;
+			sourceTree = "<group>";
+		};
+		41904E3313809A54006BAEE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41904E3413809A54006BAEE3 /* iOSLogin-Info.plist */,
+				41904E3513809A54006BAEE3 /* InfoPlist.strings */,
+				41904E3813809A54006BAEE3 /* iOSLogin-Prefix.pch */,
+				41904E3913809A54006BAEE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41904E5813809B13006BAEE3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				41904E4613809B08006BAEE3 /* DemoLoginOperation.h */,
+				41904E4713809B08006BAEE3 /* DemoLoginOperation.m */,
+				41904E4813809B08006BAEE3 /* DemoLoginView.xib */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		41904E5913809B2C006BAEE3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				41904E4913809B08006BAEE3 /* LoginOperation.h */,
+				41904E4A13809B08006BAEE3 /* LoginOperation.m */,
+				41904E4B13809B08006BAEE3 /* LoginViewController.h */,
+				41904E4C13809B08006BAEE3 /* LoginViewController.m */,
+				41904E4D13809B08006BAEE3 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41904E2713809A54006BAEE3 /* iOSLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41904E4313809A54006BAEE3 /* Build configuration list for PBXNativeTarget "iOSLogin" */;
+			buildPhases = (
+				41904E2413809A54006BAEE3 /* Sources */,
+				41904E2513809A54006BAEE3 /* Frameworks */,
+				41904E2613809A54006BAEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLogin;
+			productName = iOSLogin;
+			productReference = 41904E2813809A54006BAEE3 /* iOSLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41904E1F13809A54006BAEE3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41904E2213809A54006BAEE3 /* Build configuration list for PBXProject "iOSLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41904E1D13809A54006BAEE3;
+			productRefGroup = 41904E2913809A54006BAEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41904E2713809A54006BAEE3 /* iOSLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41904E2613809A54006BAEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41904E3713809A54006BAEE3 /* InfoPlist.strings in Resources */,
+				41904E4013809A54006BAEE3 /* MainWindow.xib in Resources */,
+				41904E5213809B08006BAEE3 /* DemoLoginView.xib in Resources */,
+				41904E5513809B08006BAEE3 /* LoginViewController.xib in Resources */,
+				41904E5713809B08006BAEE3 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41904E2413809A54006BAEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41904E3A13809A54006BAEE3 /* main.m in Sources */,
+				41904E3D13809A54006BAEE3 /* iOSLoginAppDelegate.m in Sources */,
+				41904E5113809B08006BAEE3 /* DemoLoginOperation.m in Sources */,
+				41904E5313809B08006BAEE3 /* LoginOperation.m in Sources */,
+				41904E5413809B08006BAEE3 /* LoginViewController.m in Sources */,
+				41904E5613809B08006BAEE3 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41904E3513809A54006BAEE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41904E3613809A54006BAEE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41904E3E13809A54006BAEE3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41904E3F13809A54006BAEE3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41904E4113809A54006BAEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		41904E4213809A54006BAEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		41904E4413809A54006BAEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLogin/iOSLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOSLogin/iOSLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41904E4513809A54006BAEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSLogin/iOSLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOSLogin/iOSLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41904E2213809A54006BAEE3 /* Build configuration list for PBXProject "iOSLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41904E4113809A54006BAEE3 /* Debug */,
+				41904E4213809A54006BAEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41904E4313809A54006BAEE3 /* Build configuration list for PBXNativeTarget "iOSLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41904E4413809A54006BAEE3 /* Debug */,
+				41904E4513809A54006BAEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41904E1F13809A54006BAEE3 /* Project object */;
+}
