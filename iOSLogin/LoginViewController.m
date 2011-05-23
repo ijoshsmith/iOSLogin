@@ -144,16 +144,17 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for either portrait orientation, but NO for landscape.
-	return interfaceOrientation == UIInterfaceOrientationPortrait 
-        || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown;
+	return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
 
 - (void)dealloc
 {
-    [self releaseOutlets];
-    self.delegate = nil;
-    self.loginOperation = nil;
+    [_usernameTextField release];
+    [_passwordTextField release];
+    [_submitButton release];
+    [_waitIndicator release];
+    [_errorMessageTextView release];
+    [_loginOperation release];
     [super dealloc];
 }
 

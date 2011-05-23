@@ -29,7 +29,7 @@
 }
 
 // Properties
-@property (nonatomic, assign) id<LoginViewControllerDelegate>    delegateeeeeeeeee;
+@property (nonatomic, assign) id<LoginViewControllerDelegate>    delegate;
 @property (nonatomic, retain) LoginOperation                    *loginOperation;
 
 // Outlets

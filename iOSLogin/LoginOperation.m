@@ -106,9 +106,8 @@
 {
     NSLog(@"[LoginOperation dealloc]");
     [self releaseReferences];
-    self.delegate = nil;
-    self.authenticatedPassword = nil;
-    self.authenticatedUsername = nil;
+    [_authenticatedPassword release];
+    [_authenticatedUsername release];
     [super dealloc];
 }
 
